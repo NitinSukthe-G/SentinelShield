@@ -6,6 +6,14 @@ SentinelShield is a lightweight **Web Application Firewall (WAF) and Intrusion D
 
 The application inspects HTTP-style request data, detects common web attack patterns, monitors repeated traffic from source IP addresses, applies allow/block decisions, records security events, and presents security insights through an interactive Streamlit dashboard.
 
+## Live Deployment
+
+The SentinelShield system is deployed as a public Streamlit web application.
+
+**Live Application:**
+
+[https://sentinelshield-waf.streamlit.app/](https://sentinelshield-waf.streamlit.app/)
+
 > **Project purpose:** Defensive cybersecurity education and controlled testing only. The detector analyzes submitted test strings and does not execute attack payloads.
 
 ---
