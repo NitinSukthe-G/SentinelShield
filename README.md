@@ -47,7 +47,7 @@ The application inspects HTTP-style request data, detects common web attack patt
         ┌──────────────────┐       ┌──────────────────┐
         │  Detection Rules │       │   Rate Limiter   │
         │ SQLi / XSS / LFI │       │ IP + Time Window │
-        │ Traversal / CMDi │       │ Abuse Detection │
+        │ Traversal / CMDi │       │ Abuse Detection  │
         └────────┬─────────┘       └────────┬─────────┘
                  │                           │
                  └─────────────┬─────────────┘
@@ -134,17 +134,15 @@ SentinelShield/
 ├── data/
 │   └── security_events.json       # Generated security events
 │
-├── screenshots/
-│   ├── 01_security_dashboard.png
-│   ├── 02_rate_limiting.png
-│   ├── 03_sql_injection.png
-│   ├── 04_xss_detection.png
-│   ├── 05_directory_traversal.png
-│   ├── 06_lfi_detection.png
-│   ├── 07_command_injection.png
-│   └── 08_security_logs.png
-│
-└── docs/                          # Project report and supporting documents
+└── screenshots/
+    ├── 01_security_dashboard.png
+    ├── 02_rate_limiting.png
+    ├── 03_sql_injection.png
+    ├── 04_xss_detection.png
+    ├── 05_directory_traversal.png
+    ├── 06_lfi_detection.png
+    ├── 07_command_injection.png
+    └── 08_security_logs.png
 ```
 
 ---
