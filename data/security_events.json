@@ -1,0 +1,434 @@
+[
+    {
+        "timestamp": "2026-08-18T16:45:36",
+        "ip_address": "192.168.1.10",
+        "category": "SQL Injection",
+        "action": "BLOCKED",
+        "severity": "High",
+        "request": "' OR 1=1 --"
+    },
+    {
+        "timestamp": "2026-08-18T16:55:58",
+        "ip_address": "192.168.1.10",
+        "category": "Normal",
+        "action": "ALLOWED",
+        "severity": "Low",
+        "request": "search=hello"
+    },
+    {
+        "timestamp": "2026-08-18T16:56:21",
+        "ip_address": "192.168.1.10",
+        "category": "Normal",
+        "action": "ALLOWED",
+        "severity": "Low",
+        "request": "search=hello'\n"
+    },
+    {
+        "timestamp": "2026-08-18T16:57:00",
+        "ip_address": "192.168.1.10",
+        "category": "SQL Injection",
+        "action": "BLOCKED",
+        "severity": "High",
+        "request": "' OR 1=1 --\n"
+    },
+    {
+        "timestamp": "2026-08-18T16:57:33",
+        "ip_address": "192.168.1.10",
+        "category": "Cross-Site Scripting (XSS)",
+        "action": "BLOCKED",
+        "severity": "Medium",
+        "request": "<script>alert(1)</script>\n"
+    },
+    {
+        "timestamp": "2026-08-18T16:57:54",
+        "ip_address": "192.168.1.10",
+        "category": "Directory Traversal",
+        "action": "BLOCKED",
+        "severity": "Medium",
+        "request": "../../etc/passwd\n"
+    },
+    {
+        "timestamp": "2026-08-18T16:58:17",
+        "ip_address": "192.168.1.10",
+        "category": "Local File Inclusion (LFI)",
+        "action": "BLOCKED",
+        "severity": "High",
+        "request": "/etc/passwd"
+    },
+    {
+        "timestamp": "2026-08-18T16:58:36",
+        "ip_address": "192.168.1.10",
+        "category": "Command Injection",
+        "action": "BLOCKED",
+        "severity": "High",
+        "request": "; whoami"
+    },
+    {
+        "timestamp": "2026-08-18T17:02:16",
+        "ip_address": "192.168.1.50",
+        "category": "Normal",
+        "action": "ALLOWED",
+        "severity": "Low",
+        "request": "search=test"
+    },
+    {
+        "timestamp": "2026-08-18T17:02:17",
+        "ip_address": "192.168.1.50",
+        "category": "Normal",
+        "action": "ALLOWED",
+        "severity": "Low",
+        "request": "search=test"
+    },
+    {
+        "timestamp": "2026-08-18T17:02:18",
+        "ip_address": "192.168.1.50",
+        "category": "Normal",
+        "action": "ALLOWED",
+        "severity": "Low",
+        "request": "search=test"
+    },
+    {
+        "timestamp": "2026-08-18T17:02:19",
+        "ip_address": "192.168.1.50",
+        "category": "Normal",
+        "action": "ALLOWED",
+        "severity": "Low",
+        "request": "search=test"
+    },
+    {
+        "timestamp": "2026-08-18T17:02:19",
+        "ip_address": "192.168.1.50",
+        "category": "Normal",
+        "action": "ALLOWED",
+        "severity": "Low",
+        "request": "search=test"
+    },
+    {
+        "timestamp": "2026-08-18T17:02:20",
+        "ip_address": "192.168.1.50",
+        "category": "Normal",
+        "action": "ALLOWED",
+        "severity": "Low",
+        "request": "search=test"
+    },
+    {
+        "timestamp": "2026-08-18T17:02:20",
+        "ip_address": "192.168.1.50",
+        "category": "Normal",
+        "action": "ALLOWED",
+        "severity": "Low",
+        "request": "search=test"
+    },
+    {
+        "timestamp": "2026-08-18T17:02:21",
+        "ip_address": "192.168.1.50",
+        "category": "Normal",
+        "action": "ALLOWED",
+        "severity": "Low",
+        "request": "search=test"
+    },
+    {
+        "timestamp": "2026-08-18T17:02:21",
+        "ip_address": "192.168.1.50",
+        "category": "Normal",
+        "action": "ALLOWED",
+        "severity": "Low",
+        "request": "search=test"
+    },
+    {
+        "timestamp": "2026-08-18T17:02:22",
+        "ip_address": "192.168.1.50",
+        "category": "Normal",
+        "action": "ALLOWED",
+        "severity": "Low",
+        "request": "search=test"
+    },
+    {
+        "timestamp": "2026-08-18T17:02:22",
+        "ip_address": "192.168.1.50",
+        "category": "Abusive Traffic",
+        "action": "RATE LIMITED",
+        "severity": "Medium",
+        "request": "search=test"
+    },
+    {
+        "timestamp": "2026-08-18T17:02:23",
+        "ip_address": "192.168.1.50",
+        "category": "Abusive Traffic",
+        "action": "RATE LIMITED",
+        "severity": "Medium",
+        "request": "search=test"
+    },
+    {
+        "timestamp": "2026-08-18T17:02:23",
+        "ip_address": "192.168.1.50",
+        "category": "Abusive Traffic",
+        "action": "RATE LIMITED",
+        "severity": "Medium",
+        "request": "search=test"
+    },
+    {
+        "timestamp": "2026-08-18T17:02:38",
+        "ip_address": "192.168.1.50",
+        "category": "Abusive Traffic",
+        "action": "RATE LIMITED",
+        "severity": "Medium",
+        "request": "search=test"
+    },
+    {
+        "timestamp": "2026-08-18T17:02:38",
+        "ip_address": "192.168.1.50",
+        "category": "Abusive Traffic",
+        "action": "RATE LIMITED",
+        "severity": "Medium",
+        "request": "search=test"
+    },
+    {
+        "timestamp": "2026-08-18T17:02:39",
+        "ip_address": "192.168.1.50",
+        "category": "Abusive Traffic",
+        "action": "RATE LIMITED",
+        "severity": "Medium",
+        "request": "search=test"
+    },
+    {
+        "timestamp": "2026-08-18T17:12:43",
+        "ip_address": "192.168.1.20",
+        "category": "SQL Injection",
+        "action": "BLOCKED",
+        "severity": "High",
+        "request": "' OR 1=1 --"
+    },
+    {
+        "timestamp": "2026-08-18T17:13:56",
+        "ip_address": "192.168.1.20",
+        "category": "Cross-Site Scripting (XSS)",
+        "action": "BLOCKED",
+        "severity": "Medium",
+        "request": "<script>alert(1)</script>"
+    },
+    {
+        "timestamp": "2026-08-18T17:15:39",
+        "ip_address": "192.168.1.20",
+        "category": "Directory Traversal",
+        "action": "BLOCKED",
+        "severity": "Medium",
+        "request": "../../etc/passwd"
+    },
+    {
+        "timestamp": "2026-08-18T17:17:03",
+        "ip_address": "192.168.1.20",
+        "category": "Local File Inclusion (LFI)",
+        "action": "BLOCKED",
+        "severity": "High",
+        "request": "/etc/passwd"
+    },
+    {
+        "timestamp": "2026-08-18T17:18:05",
+        "ip_address": "192.168.1.20",
+        "category": "Command Injection",
+        "action": "BLOCKED",
+        "severity": "High",
+        "request": "; whoami"
+    },
+    {
+        "timestamp": "2026-08-18T17:20:38",
+        "ip_address": "192.168.1.20",
+        "category": "Normal",
+        "action": "ALLOWED",
+        "severity": "Low",
+        "request": "search=hello"
+    },
+    {
+        "timestamp": "2026-08-18T17:27:38",
+        "ip_address": "192.168.1.10",
+        "category": "Normal",
+        "action": "ALLOWED",
+        "severity": "Low",
+        "request": "search=hello"
+    },
+    {
+        "timestamp": "2026-08-18T17:27:55",
+        "ip_address": "192.168.1.10",
+        "category": "SQL Injection",
+        "action": "BLOCKED",
+        "severity": "High",
+        "request": "' OR 1=1\n"
+    },
+    {
+        "timestamp": "2026-08-18T17:28:10",
+        "ip_address": "192.168.1.10",
+        "category": "Command Injection",
+        "action": "BLOCKED",
+        "severity": "High",
+        "request": "; whoami\n\n"
+    },
+    {
+        "timestamp": "2026-08-18T17:28:25",
+        "ip_address": "192.168.1.10",
+        "category": "Normal",
+        "action": "ALLOWED",
+        "severity": "Low",
+        "request": "/etc/password\n\n"
+    },
+    {
+        "timestamp": "2026-08-18T17:29:11",
+        "ip_address": "192.168.1.10",
+        "category": "Local File Inclusion (LFI)",
+        "action": "BLOCKED",
+        "severity": "High",
+        "request": "/etc/passwd\n\n"
+    },
+    {
+        "timestamp": "2026-08-18T17:29:20",
+        "ip_address": "192.168.1.10",
+        "category": "Directory Traversal",
+        "action": "BLOCKED",
+        "severity": "Medium",
+        "request": "/../../etc/passwd\n\n"
+    },
+    {
+        "timestamp": "2026-08-18T17:30:17",
+        "ip_address": "192.168.1.10",
+        "category": "Cross-Site Scripting (XSS)",
+        "action": "BLOCKED",
+        "severity": "Medium",
+        "request": "<script>alert</script>\n\n"
+    },
+    {
+        "timestamp": "2026-08-18T17:34:17",
+        "ip_address": "192.168.1.10",
+        "category": "Normal",
+        "action": "ALLOWED",
+        "severity": "Low",
+        "request": "search=hello"
+    },
+    {
+        "timestamp": "2026-08-18T17:34:18",
+        "ip_address": "192.168.1.10",
+        "category": "Normal",
+        "action": "ALLOWED",
+        "severity": "Low",
+        "request": "search=hello"
+    },
+    {
+        "timestamp": "2026-08-18T17:34:18",
+        "ip_address": "192.168.1.10",
+        "category": "Normal",
+        "action": "ALLOWED",
+        "severity": "Low",
+        "request": "search=hello"
+    },
+    {
+        "timestamp": "2026-08-18T17:34:19",
+        "ip_address": "192.168.1.10",
+        "category": "Normal",
+        "action": "ALLOWED",
+        "severity": "Low",
+        "request": "search=hello"
+    },
+    {
+        "timestamp": "2026-08-18T17:34:19",
+        "ip_address": "192.168.1.10",
+        "category": "Normal",
+        "action": "ALLOWED",
+        "severity": "Low",
+        "request": "search=hello"
+    },
+    {
+        "timestamp": "2026-08-18T17:34:19",
+        "ip_address": "192.168.1.10",
+        "category": "Normal",
+        "action": "ALLOWED",
+        "severity": "Low",
+        "request": "search=hello"
+    },
+    {
+        "timestamp": "2026-08-18T17:34:20",
+        "ip_address": "192.168.1.10",
+        "category": "Normal",
+        "action": "ALLOWED",
+        "severity": "Low",
+        "request": "search=hello"
+    },
+    {
+        "timestamp": "2026-08-18T17:34:20",
+        "ip_address": "192.168.1.10",
+        "category": "Normal",
+        "action": "ALLOWED",
+        "severity": "Low",
+        "request": "search=hello"
+    },
+    {
+        "timestamp": "2026-08-18T17:34:20",
+        "ip_address": "192.168.1.10",
+        "category": "Normal",
+        "action": "ALLOWED",
+        "severity": "Low",
+        "request": "search=hello"
+    },
+    {
+        "timestamp": "2026-08-18T17:34:20",
+        "ip_address": "192.168.1.10",
+        "category": "Normal",
+        "action": "ALLOWED",
+        "severity": "Low",
+        "request": "search=hello"
+    },
+    {
+        "timestamp": "2026-08-18T17:34:21",
+        "ip_address": "192.168.1.10",
+        "category": "Abusive Traffic",
+        "action": "RATE LIMITED",
+        "severity": "Medium",
+        "request": "search=hello"
+    },
+    {
+        "timestamp": "2026-08-18T17:34:22",
+        "ip_address": "192.168.1.10",
+        "category": "Abusive Traffic",
+        "action": "RATE LIMITED",
+        "severity": "Medium",
+        "request": "search=hello"
+    },
+    {
+        "timestamp": "2026-08-18T17:34:22",
+        "ip_address": "192.168.1.10",
+        "category": "Abusive Traffic",
+        "action": "RATE LIMITED",
+        "severity": "Medium",
+        "request": "search=hello"
+    },
+    {
+        "timestamp": "2026-08-18T17:34:22",
+        "ip_address": "192.168.1.10",
+        "category": "Abusive Traffic",
+        "action": "RATE LIMITED",
+        "severity": "Medium",
+        "request": "search=hello"
+    },
+    {
+        "timestamp": "2026-08-18T17:34:22",
+        "ip_address": "192.168.1.10",
+        "category": "Abusive Traffic",
+        "action": "RATE LIMITED",
+        "severity": "Medium",
+        "request": "search=hello"
+    },
+    {
+        "timestamp": "2026-08-18T17:34:23",
+        "ip_address": "192.168.1.10",
+        "category": "Abusive Traffic",
+        "action": "RATE LIMITED",
+        "severity": "Medium",
+        "request": "search=hello"
+    },
+    {
+        "timestamp": "2026-08-18T17:34:23",
+        "ip_address": "192.168.1.10",
+        "category": "Abusive Traffic",
+        "action": "RATE LIMITED",
+        "severity": "Medium",
+        "request": "search=hello"
+    }
+]
