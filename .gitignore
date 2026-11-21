@@ -19,3 +19,24 @@ Thumbs.db
 # Temporary files
 *.tmp
 *.log
+!data/sample_access.log
+
+# SentinelShield runtime state (regenerated at runtime)
+data/ip_state.json
+data/alerts.json
+data/*.tmp
+
+# Local operator configuration (copy from the example file)
+sentinelshield.config.json
+
+# Rendered submission videos (host externally; don't commit large binaries)
+*.mp4
+# ...except the demo video shown in the README
+!docs/SentinelShield-walkthrough.mp4
+
+# Personal / submission files (kept local, not pushed)
+resume.txt
+Links.txt
+
+# Test cache
+.pytest_cache/

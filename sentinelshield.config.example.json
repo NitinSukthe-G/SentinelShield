@@ -1,0 +1,25 @@
+{
+  "mode": "block",
+  "block_threshold": 5,
+  "flag_threshold": 3,
+  "rate_limit": {
+    "max_requests": 10,
+    "window_seconds": 60
+  },
+  "disabled_rules": [],
+  "allowlist": [
+    "203.0.113.10"
+  ],
+  "denylist": [],
+  "custom_rules": [
+    {
+      "id": "SS-CUSTOM-001",
+      "name": "Internal project codename leak",
+      "category": "Sensitive File Probe",
+      "severity": "High",
+      "score": 6,
+      "pattern": "project[-_ ]?bluebird",
+      "description": "Blocks requests referencing a confidential internal codename."
+    }
+  ]
+}
