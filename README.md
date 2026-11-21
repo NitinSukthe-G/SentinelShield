@@ -12,9 +12,11 @@ It solves a real, everyday problem: **small businesses, startups, student projec
 
 ## 🎬 Demo
 
-[![Watch the SentinelShield walkthrough](docs/demo-thumbnail.png)](docs/SentinelShield-walkthrough.mp4)
 
-**▶ [Watch the walkthrough video](docs/SentinelShield-walkthrough.mp4)** (about 80 seconds, with narration)
+
+https://github.com/user-attachments/assets/567ca300-0dbd-43b8-8c39-61513c168900
+
+
 
 A guided tour of the **live app**: open the SOC console, inspect a login request hiding a SQL injection, watch it **blocked instantly** with the exact rule, anomaly score, MITRE ATT&CK technique and response playbook — then IP reputation and auto-bans, access-log forensics, the measured 100% benchmark, and config/CLI.
 
